@@ -26,15 +26,15 @@ internal class Program
         bool isRightTriangle1 = triangle1.IsRightTriangle();
         bool isRightTriangle2 = triangle2.IsRightTriangle();
 
-        Console.WriteLine($"Треугольник 1 является прямоугольным: {isRightTriangle1}");
-        Console.WriteLine($"Треугольник 2 является прямоугольным: {isRightTriangle2}");
-
         //double radius = 5;
         //double resultCircle = Geometry.GetCircleArea(radius);
         //Console.WriteLine($"Площадь круга с радиусом {radius} равна {resultCircle}");
 
         //double resultTriangle = Geometry.GetTriangleArea(3, 4, 5);
         //Console.WriteLine(resultTriangle);
+
+        Console.WriteLine($"Треугольник 1 является прямоугольным: {isRightTriangle1}");
+        Console.WriteLine($"Треугольник 2 является прямоугольным: {isRightTriangle2}");
 
         Console.ReadLine();
     }
